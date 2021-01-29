@@ -1,0 +1,129 @@
+.jumbotron{
+    background-image: url(jumbotron.png);
+    background-size: cover;
+    height: 800px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.jumbotron h1{
+    margin-top: 140px;
+}
+.jumbotron h2{
+    font-weight: bold;
+}
+.jumbotron p{
+    margin-top: 25px;
+}
+.jumbotron img{
+    margin-top: 120px;
+}
+.about{
+    margin-top: 40px;
+}
+.img2 img{
+    width: 250px;
+    height: 250px;
+}
+.img3 img{
+    width: 250px;
+    height: 250px;
+}
+.img4 img{
+    width: 250px;
+    height: 250px;
+}
+.img5 img{
+    width: 250px;
+    height: 250px;
+}
+.img6 img{
+    width: 250px;
+    height: 250px;
+}
+.img7 img{
+    width: 250px;
+    height: 250px;   
+}
+.treatment{
+    margin-top: 80px;
+    background-color: black;
+    height: 1000px;
+    text-align: center;
+    background-image: url(bg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonial{
+    margin-top: 50px;
+    text-align: center;
+}
+.footer{
+    background-color: grey;
+    margin-top: 50px;
+    color: white;
+}
+.footer h1{
+    font-weight: bold;
+}
+
+
+
+
+/* Desktop Version */
+@media(min-width:992px){
+    .jumbotron{
+        background-image: url(jumbotron.png);
+        background-size: cover;
+        height: 600px;
+        background-repeat: no-repeat;
+        text-align: left;
+    }
+    .img2 img{
+        width: 200px;
+        height: 200px;
+    }
+    .img3 img{
+        width: 200px;
+        height: 200px;
+    }
+    .img4 img{
+        width: 300px;
+        height: 300px;
+    }
+    .img5 img{
+        margin-top: -60px;
+        width: 300px;
+        height: 300px;
+    }
+    .treatment{
+        margin-top: 80px;
+        background-image: url(bg1.jpeg);
+        height: 650px;
+        text-align: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img6 img{
+        width: 450px;
+        height: 450px;
+    }
+    .img7 img{
+        width: 150px;
+        height: 150px;   
+    }
+    .testimonial{
+        margin-top: 50px;
+        text-align: left;
+    }
+    .kutip{
+        margin-left: -90px;
+        margin-top: 250px;
+    }
+    .footer{
+        background-color: grey;
+        margin-top: 50px;
+    }
+    img{
+        border-radius: 20px;
+    }
+}
