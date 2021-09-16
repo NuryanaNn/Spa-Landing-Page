@@ -1,5 +1,5 @@
 .jumbotron{
-    background-image: url(jumbotron.png);
+    background-image: url('img/jumbotron.png');
     background-size: cover;
     height: 800px;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@
     background-color: black;
     height: 1000px;
     text-align: center;
-    background-image: url(bg1.jpeg);
+    background-image: url('img/bg1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -72,7 +72,7 @@
 /* Desktop Version */
 @media(min-width:992px){
     .jumbotron{
-        background-image: url(jumbotron.png);
+        background-image: url('img/jumbotron.png');
         background-size: cover;
         height: 600px;
         background-repeat: no-repeat;
@@ -97,7 +97,7 @@
     }
     .treatment{
         margin-top: 80px;
-        background-image: url(bg1.jpeg);
+        background-image: url('img/bg1.jpeg');
         height: 650px;
         text-align: left;
         background-repeat: no-repeat;
